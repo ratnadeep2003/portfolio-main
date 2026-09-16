@@ -1,15 +1,34 @@
 {
   "projects": [
     {
-      "name": "DevPulse Analytics",
-      "description": "Real-time analytics and monitoring dashboard for developer workflows, APIs, and cloud microservices",
-      "image": "/img/project-1.svg",
+      "name": "Terminal-Based Coding Agent",
+      "description": "Autonomous terminal coding assistant with a multi-turn ReAct loop for iterative perception, tool chaining, and self-correction across up to 25 turns",
+      "image": "/img/project-agent.svg",
       "tags": [
         "TypeScript",
-        "Next.js",
-        "TailwindCSS",
         "Node.js",
-        "PostgreSQL"
+        "Gemini API",
+        "Claude API",
+        "ReAct"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Purplexity",
+      "description": "AI search engine combining Tavily Web Search and Google Gemini via the Vercel AI SDK, generating real-time streaming answers with dynamic web citations",
+      "image": "/img/project-purplexity.svg",
+      "tags": [
+        "React 19",
+        "Express",
+        "Bun",
+        "TypeScript",
+        "Supabase"
       ],
       "links": [
         {
@@ -25,15 +44,35 @@
       ]
     },
     {
-      "name": "AI Workflow Automator",
-      "description": "Intelligent automated workflow management pipeline integrating custom LLM agents, task queuing, and event triggers",
-      "image": "/img/project-2.svg",
+      "name": "GitArchHub",
+      "description": "Git-style version control and collaboration platform for architects — 3D visual diffing, role-based branching, and CAD/BIM file support built for design files Git wasn't designed to handle",
+      "image": "/img/project-gitarch.svg",
       "tags": [
-        "Python",
-        "FastAPI",
         "Next.js",
-        "OpenAI",
-        "Docker"
+        "Three.js",
+        "Node.js",
+        "React Three Fiber",
+        "Ongoing"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "PaperCast",
+      "description": "Converts research papers into interactive two-host AI podcasts, using a Level-3 citation crawler over the OpenAlex API and an LLM-driven dialogue synthesizer, with pause/resume voice interaction grounded in the citation graph",
+      "image": "/img/project-papercast.svg",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "SQLite",
+        "Gemini",
+        "OpenAlex"
       ],
       "links": [
         {

@@ -1,33 +1,53 @@
 {
   "career": [
     {
-      "name": "Tech Enterprise",
-      "href": "https://example.com",
-      "logo": "/img/company-1.svg",
+      "name": "Mechatronics System Pvt Ltd",
+      "href": "https://www.linkedin.com/company/mechatronics-system-pvt-ltd/",
+      "logo": "/img/company-mechatronics.jpeg",
       "positions": [
         {
-          "title": "Software Engineer",
-          "start": "2023",
+          "title": "App Developer",
+          "start": "July 2026",
           "end": "Present",
           "description": [
-            "Architecting and building responsive, full-stack web applications with Next.js, React, TypeScript, and modern Node.js services",
-            "Designing scalable RESTful APIs, optimizing database queries, and streamlining deployment pipelines"
+            "Developed a production-ready Flutter mobile application for the company's Real Time Data Acquisition System (RTDAS) used for live dam monitoring, implementing a modular architecture with reusable widgets and a dedicated API service layer",
+            "Migrated the backend from Node.js + Microsoft SQL Server to a PHP + MySQL REST API, converting database queries and endpoints while maintaining compatibility with the existing dashboard functionality",
+            "Implemented secure authentication, live station monitoring, interactive maps using flutter_map, real-time telemetry dashboards, and Syncfusion gauges/charts with Historical, Daily, and Last 7 Days reporting",
+            "Integrated REST APIs, optimized JSON parsing and state management, resolved data inconsistencies between web and mobile dashboards, and generated Android release builds for internal deployment"
           ]
         }
       ]
     },
     {
-      "name": "Digital Solutions Lab",
-      "href": "https://example.com",
-      "logo": "/img/company-2.svg",
+      "name": "iGap Technologies",
+      "href": "https://igaptechnologies.com/",
+      "logo": "/img/company-igap.png",
       "positions": [
         {
-          "title": "Full-Stack Developer",
-          "start": "2021",
-          "end": "2023",
+          "title": "Full Stack Intern",
+          "start": "March 2026",
+          "end": "June 2026",
           "description": [
-            "Developed interactive UI components and front-end features using Tailwind CSS, React, and state management libraries",
-            "Collaborated closely with product designers and engineering teams to deliver high-performance user experiences"
+            "Built a full-stack TV e-commerce platform using the MERN stack, featuring a product catalog, shopping cart with discount code support, and a password-protected admin dashboard with full CRUD operations via MongoDB",
+            "Developed a devotee management web application for ISKCON Kolhapur with React.js and Express.js, implementing JWT-based authentication, admin user controls, a darshan gallery, Ekadashi calendar, and a devotional bookstore with live cart functionality",
+            "Progressed through the full stack independently — from plain HTML/CSS/JS and Bootstrap to React.js, Node.js, Express.js, and MongoDB — delivering two client-facing production projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smart Touch Tech Solutions LLP",
+      "href": "https://smarttouchindia.in/",
+      "logo": "/img/company-stts.png",
+      "positions": [
+        {
+          "title": "Freelance React Native Developer",
+          "start": "April 2026",
+          "end": "June 2026",
+          "description": [
+            "Designed the skeletal architecture of a cross-platform mobile app using React Native, covering theming system, colorful UI component structure, and screen navigation layout",
+            "Built a dynamic theming system allowing instant, app-wide theme switching applied across buttons and screens on a single tap",
+            "Scaffolded PDF/Excel data export and Stripe payment integration touchpoints, along with backend API connectivity"
           ]
         }
       ]

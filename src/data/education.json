@@ -1,18 +1,26 @@
 {
   "education": [
     {
-      "name": "University of Engineering & Technology",
-      "href": "https://example.com",
-      "logo": "/img/education.svg",
+      "name": "KIT's College of Engineering Kolhapur",
+      "href": "https://www.kitcoek.in/",
+      "logo": "/img/education.jpeg",
       "positions": [
         {
-          "title": "B.Tech in Computer Science & Engineering",
-          "start": "2018",
-          "end": "2022",
+          "title": "B.Tech in Electronics and Telecommunication Engineering",
+          "start": "2021",
+          "end": "2025",
           "description": [
-            "Specialized in Software Engineering, Algorithms, and Distributed Systems",
-            "Participated in multiple hackathons and open-source project developments"
-          ]
+            "B.Tech in Electronics and Telecommunication Engineering",
+            "Published first-author research on an AI-based computer vision system for railway fault detection (IJRAR, 2025)",
+            "Shifted focus to software development, self-learning full-stack web technologies"
+          ],
+          "links": [
+  {
+    "name": "Research Paper",
+    "href": "https://ijrar.org/papers/IJRAR25B2773.pdf",
+    "icon": "globe"
+  }
+]
         }
       ]
     }
