@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/Button";
 import { getPosts } from "@/lib/posts";
 import {
   ArrowDown,
-  ArrowDownRight,
   ArrowRightIcon,
   FileDown,
 } from "lucide-react";
@@ -47,10 +46,6 @@ export default function Home() {
           </p>
 
           <div className="mt-6 flex items-center gap-1">
-            <p className="text-balance text-sm font-semibold sm:text-base">
-              {homeContent.introduction.chatPrompt}
-            </p>
-            <ArrowDownRight className="hidden size-5 animate-bounce sm:block" />
             <ArrowDown className="block size-5 animate-bounce sm:hidden" />
           </div>
 
