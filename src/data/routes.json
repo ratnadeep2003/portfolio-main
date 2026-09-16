@@ -1,0 +1,40 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "name": "home",
+      "description": "Portfolio overview, recent projects, and highlights",
+      "showInNav": true
+    },
+    {
+      "path": "/projects",
+      "name": "projects",
+      "description": "Portfolio projects showcase",
+      "showInNav": true
+    },
+    {
+      "path": "/blog",
+      "name": "blog",
+      "description": "Blog posts and technical notes",
+      "showInNav": true
+    },
+    {
+      "path": "/contact",
+      "name": "contact",
+      "description": "Contact form",
+      "showInNav": true
+    },
+    {
+      "path": "/privacy",
+      "name": "privacy",
+      "description": "Privacy policy",
+      "showInNav": false
+    },
+    {
+      "path": "/resume.pdf",
+      "name": "resume",
+      "description": "Resume CV in pdf format",
+      "showInNav": false
+    }
+  ]
+}

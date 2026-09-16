@@ -1,0 +1,20 @@
+{
+  "education": [
+    {
+      "name": "University of Engineering & Technology",
+      "href": "https://example.com",
+      "logo": "/img/education.svg",
+      "positions": [
+        {
+          "title": "B.Tech in Computer Science & Engineering",
+          "start": "2018",
+          "end": "2022",
+          "description": [
+            "Specialized in Software Engineering, Algorithms, and Distributed Systems",
+            "Participated in multiple hackathons and open-source project developments"
+          ]
+        }
+      ]
+    }
+  ]
+}

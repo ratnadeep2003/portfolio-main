@@ -1,0 +1,20 @@
+﻿<svg xmlns=http://www.w3.org/2000/svg viewBox=0 0 350 466 width=350 height=466>
+  <defs>
+    <linearGradient id=g2 x1=0% y1=0% x2=100% y2=100%>
+      <stop offset=0% stop-color=#0f172a />
+      <stop offset=50% stop-color=#0284c7 />
+      <stop offset=100% stop-color=#38bdf8 />
+    </linearGradient>
+  </defs>
+  <rect width=350 height=466 rx=16 fill=url(#g2) />
+  <circle cx=175 cy=180 r=70 fill=#0369a1 opacity=0.8 />
+  <!-- Terminal code icon -->
+  <rect x=130 y=145 width=90 height=70 rx=8 fill=#ffffff opacity=0.95 />
+  <path d=M145 165 L160 175 L145 185 stroke=#0284c7 stroke-width=3 stroke-linecap=round stroke-linejoin=round fill=none/>
+  <line x1=168 y1=185 x2=185 y2=185 stroke=#0284c7 stroke-width=3 stroke-linecap=round/>
+  <rect x=50 y=290 width=250 height=44 rx=22 fill=#ffffff fill-opacity=0.15 stroke=#ffffff stroke-opacity=0.2 />
+  <text x=175 y=318 text-anchor=middle fill=#ffffff font-family=system-ui, sans-serif font-size=16 font-weight=600 letter-spacing=1>SYSTEMS &amp; APIS</text>
+  <rect x=75 y=348 width=200 height=34 rx=17 fill=#ffffff fill-opacity=0.1 />
+  <text x=175 y=370 text-anchor=middle fill=#e0f2fe font-family=system-ui, sans-serif font-size=13 font-weight=500>FastAPI • Node.js • Databases</text>
+  <text x=175 y=425 text-anchor=middle fill=#bae6fd font-family=system-ui, sans-serif font-size=12 font-weight=400>⚡ High Performance</text>
+</svg>

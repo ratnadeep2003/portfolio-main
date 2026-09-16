@@ -1,0 +1,36 @@
+{
+  "career": [
+    {
+      "name": "Tech Enterprise",
+      "href": "https://example.com",
+      "logo": "/img/company-1.svg",
+      "positions": [
+        {
+          "title": "Software Engineer",
+          "start": "2023",
+          "end": "Present",
+          "description": [
+            "Architecting and building responsive, full-stack web applications with Next.js, React, TypeScript, and modern Node.js services",
+            "Designing scalable RESTful APIs, optimizing database queries, and streamlining deployment pipelines"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Digital Solutions Lab",
+      "href": "https://example.com",
+      "logo": "/img/company-2.svg",
+      "positions": [
+        {
+          "title": "Full-Stack Developer",
+          "start": "2021",
+          "end": "2023",
+          "description": [
+            "Developed interactive UI components and front-end features using Tailwind CSS, React, and state management libraries",
+            "Collaborated closely with product designers and engineering teams to deliver high-performance user experiences"
+          ]
+        }
+      ]
+    }
+  ]
+}

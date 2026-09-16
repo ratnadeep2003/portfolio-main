@@ -1,0 +1,20 @@
+﻿<svg xmlns=http://www.w3.org/2000/svg viewBox=0 0 350 466 width=350 height=466>
+  <defs>
+    <linearGradient id=g3 x1=0% y1=0% x2=100% y2=100%>
+      <stop offset=0% stop-color=#14532d />
+      <stop offset=50% stop-color=#059669 />
+      <stop offset=100% stop-color=#34d399 />
+    </linearGradient>
+  </defs>
+  <rect width=350 height=466 rx=16 fill=url(#g3) />
+  <circle cx=175 cy=180 r=70 fill=#065f46 opacity=0.8 />
+  <!-- AI / Brain sparkle icon -->
+  <path d=M175 140 L180 155 L195 160 L180 165 L175 180 L170 165 L155 160 L170 155 Z fill=#ffffff />
+  <circle cx=155 cy=190 r=8 fill=#ffffff opacity=0.9 />
+  <circle cx=195 cy=190 r=8 fill=#ffffff opacity=0.9 />
+  <rect x=50 y=290 width=250 height=44 rx=22 fill=#ffffff fill-opacity=0.15 stroke=#ffffff stroke-opacity=0.2 />
+  <text x=175 y=318 text-anchor=middle fill=#ffffff font-family=system-ui, sans-serif font-size=16 font-weight=600 letter-spacing=1>AI INTEGRATIONS</text>
+  <rect x=75 y=348 width=200 height=34 rx=17 fill=#ffffff fill-opacity=0.1 />
+  <text x=175 y=370 text-anchor=middle fill=#d1fae5 font-family=system-ui, sans-serif font-size=13 font-weight=500>LLMs • Agents • Automation</text>
+  <text x=175 y=425 text-anchor=middle fill=#a7f3d0 font-family=system-ui, sans-serif font-size=12 font-weight=400>🤖 Intelligent Systems</text>
+</svg>

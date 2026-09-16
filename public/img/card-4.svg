@@ -1,0 +1,20 @@
+﻿<svg xmlns=http://www.w3.org/2000/svg viewBox=0 0 350 466 width=350 height=466>
+  <defs>
+    <linearGradient id=g4 x1=0% y1=0% x2=100% y2=100%>
+      <stop offset=0% stop-color=#4c0519 />
+      <stop offset=50% stop-color=#9f1239 />
+      <stop offset=100% stop-color=#f43f5e />
+    </linearGradient>
+  </defs>
+  <rect width=350 height=466 rx=16 fill=url(#g4) />
+  <circle cx=175 cy=180 r=70 fill=#881337 opacity=0.8 />
+  <!-- Rocket launch icon -->
+  <path d=M175 140 C160 160, 160 190, 175 210 C190 190, 190 160, 175 140 Z fill=#ffffff />
+  <path d=M160 190 L145 205 L160 205 Z fill=#ffffff opacity=0.8 />
+  <path d=M190 190 L205 205 L190 205 Z fill=#ffffff opacity=0.8 />
+  <rect x=50 y=290 width=250 height=44 rx=22 fill=#ffffff fill-opacity=0.15 stroke=#ffffff stroke-opacity=0.2 />
+  <text x=175 y=318 text-anchor=middle fill=#ffffff font-family=system-ui, sans-serif font-size=16 font-weight=600 letter-spacing=1>PROBLEM SOLVER</text>
+  <rect x=75 y=348 width=200 height=34 rx=17 fill=#ffffff fill-opacity=0.1 />
+  <text x=175 y=370 text-anchor=middle fill=#ffe4e6 font-family=system-ui, sans-serif font-size=13 font-weight=500>Passionate • Continuous Learner</text>
+  <text x=175 y=425 text-anchor=middle fill=#fecdd3 font-family=system-ui, sans-serif font-size=12 font-weight=400>🚀 Ready to Build</text>
+</svg>

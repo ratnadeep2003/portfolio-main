@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "name": "DevPulse Analytics",
+      "description": "Real-time analytics and monitoring dashboard for developer workflows, APIs, and cloud microservices",
+      "image": "/img/project-1.svg",
+      "tags": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://example.com",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "AI Workflow Automator",
+      "description": "Intelligent automated workflow management pipeline integrating custom LLM agents, task queuing, and event triggers",
+      "image": "/img/project-2.svg",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "OpenAI",
+        "Docker"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
+}
