@@ -2,8 +2,7 @@
   "introduction": {
     "greeting": "Hi, I'm Ratnadeep. 👋",
     "tagline": "Full-Stack Developer (Stack Still Loading...)",
-    "description": "Building modern, scalable web applications and intelligent systems. Clean architecture by profession, continuous innovation by passion.",
-    "escalation": {
+    "description": "Ravenous for backend and distributed systems knowledge, one Docker container at a time.",   "escalation": {
       "text": "Interested in collaborating or discussing projects?",
       "linkText": "Get in touch",
       "suffix": "directly."
