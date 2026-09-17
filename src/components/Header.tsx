@@ -17,13 +17,27 @@ export default function Header() {
       <div className="mx-auto max-w-3xl px-8 py-6">
         <nav className="flex items-center justify-between">
           <ul className="flex gap-4 sm:gap-8">
-            {navLinks.map((nav, id) => (
-              <li key={id} className="link">
-                <Link href={nav.href} title={nav.title}>
-                  {nav.name}
-                </Link>
-              </li>
-            ))}
+            {navLinks.map((nav, id) => {
+              const isExternal = nav.href.startsWith("http");
+              return (
+                <li key={id} className="link">
+                  {isExternal ? (
+                    <a
+                      href={nav.href}
+                      title={nav.title}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {nav.name}
+                    </a>
+                  ) : (
+                    <Link href={nav.href} title={nav.title}>
+                      {nav.name}
+                    </Link>
+                  )}
+                </li>
+              );
+            })}
           </ul>
           <div className="flex gap-2 sm:gap-4">
             <ThemeToggle />

@@ -35,6 +35,12 @@
       "name": "resume",
       "description": "Resume CV in pdf format",
       "showInNav": false
-    }
+    },
+    {
+  "path": "https://medium.com/@ratnadeepabitkar",
+  "name": "blog",
+  "description": "Blog posts and technical notes",
+  "showInNav": true
+}
   ]
 }
