@@ -17,24 +17,37 @@ interface Props {
 }
 
 export function ProjectCard({ project }: Props) {
-  const { name, href, description, image, tags, links } = project;
+  const { name, href, description, image, video, tags, links } = project;
 
   return (
     <Card className="flex flex-col">
       <CardHeader>
-        {image && (
-          <Link href={href || image}>
-            <ImageWithSkeleton
-              src={image}
-              alt={name}
-              width={500}
-              height={300}
-              sizes="(max-width: 640px) calc(100vw - 4rem), 344px"
-              quality={75}
-              containerClassName="h-40 w-full"
-              className="h-40 w-full object-cover object-top"
+        {video ? (
+          <div className="h-40 w-full overflow-hidden rounded-md">
+            <video
+              src={video}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="h-40 w-auto object-cover object-center"
             />
-          </Link>
+          </div>
+        ) : (
+          image && (
+            <Link href={href || image}>
+              <ImageWithSkeleton
+                src={image}
+                alt={name}
+                width={500}
+                height={300}
+                sizes="(max-width: 640px) calc(100vw - 4rem), 344px"
+                quality={75}
+                containerClassName="h-40 w-full"
+                className="h-40 w-full object-cover object-top"
+              />
+            </Link>
+          )
         )}
       </CardHeader>
       <CardContent className="flex flex-col gap-2">

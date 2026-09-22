@@ -4,32 +4,17 @@
       "name": "Terminal-Based Coding Agent",
       "description": "Autonomous terminal coding assistant with a multi-turn ReAct loop for iterative perception, tool chaining, and self-correction across up to 25 turns",
       "image": "/img/project-agent.svg",
-      "tags": [
-        "TypeScript",
-        "Node.js",
-        "Gemini API",
-        "Claude API",
-        "ReAct"
-      ],
+      "video": "/videos/terminal-agent-demo.mp4",
+      "tags": ["TypeScript", "Node.js", "Gemini API", "Claude API", "ReAct"],
       "links": [
-        {
-          "name": "Source",
-          "href": "https://github.com",
-          "icon": "github"
-        }
+        { "name": "Source", "href": "https://github.com/ratnadeep2003/terminal-based-coding-agent", "icon": "github" }
       ]
     },
     {
       "name": "Purplexity",
       "description": "AI search engine combining Tavily Web Search and Google Gemini via the Vercel AI SDK, generating real-time streaming answers with dynamic web citations",
       "image": "/img/project-purplexity.svg",
-      "tags": [
-        "React 19",
-        "Express",
-        "Bun",
-        "TypeScript",
-        "Supabase"
-      ],
+      "tags": ["React 19", "Express", "Bun", "TypeScript", "Supabase"],
       "links": [
         {
           "name": "Website",
