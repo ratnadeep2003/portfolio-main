@@ -29,7 +29,7 @@
       ]
     },
     {
-      "name": "GitArchHub",
+      "name": "GitArch",
       "description": "Git-style version control and collaboration platform for architects — 3D visual diffing, role-based branching, and CAD/BIM file support built for design files Git wasn't designed to handle",
       "image": "/img/project-gitarch.svg",
       "tags": [
@@ -62,7 +62,7 @@
       "links": [
         {
           "name": "Source",
-          "href": "https://github.com",
+          "href": "https://github.com/ratnadeep2003/research-paper-to-podcast",
           "icon": "github"
         }
       ]

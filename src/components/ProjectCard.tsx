@@ -51,7 +51,12 @@ export function ProjectCard({ project }: Props) {
         )}
       </CardHeader>
       <CardContent className="flex flex-col gap-2">
-        <CardTitle>{name}</CardTitle>
+        <div className="flex items-center justify-between gap-2">
+          <CardTitle>{name}</CardTitle>
+          <Badge variant="secondary" className="shrink-0 px-2 py-0.5 text-[10px]">
+            In Progress
+          </Badge>
+        </div>
         <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
           {description}
         </Markdown>
