@@ -23,14 +23,14 @@ export function ProjectCard({ project }: Props) {
     <Card className="flex flex-col">
       <CardHeader>
         {video ? (
-          <div className="h-40 w-full overflow-hidden rounded-md">
+          <div className="flex h-40 w-full items-center justify-center overflow-hidden rounded-md bg-muted">
             <video
               src={video}
               autoPlay
               loop
               muted
               playsInline
-              className="h-40 w-auto object-cover object-center"
+              className="h-full w-full object-contain object-center"
             />
           </div>
         ) : (
@@ -43,8 +43,8 @@ export function ProjectCard({ project }: Props) {
                 height={300}
                 sizes="(max-width: 640px) calc(100vw - 4rem), 344px"
                 quality={75}
-                containerClassName="h-40 w-full"
-                className="h-40 w-full object-cover object-top"
+                containerClassName="flex h-40 w-full items-center justify-center overflow-hidden rounded-md bg-muted"
+                className="h-full w-full object-contain object-center"
               />
             </Link>
           )
