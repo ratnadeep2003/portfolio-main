@@ -13,7 +13,7 @@
     {
       "name": "Purplexity",
       "description": "AI search engine combining Tavily Web Search and Google Gemini via the Vercel AI SDK, generating real-time streaming answers with dynamic web citations",
-      "image": "/img/project-purplexity.svg",
+      "image": "/img/project-3.svg",
       "tags": ["React 19", "Express", "Bun", "TypeScript", "Supabase"],
       "links": [
         {
@@ -23,7 +23,7 @@
         },
         {
           "name": "Source",
-          "href": "https://github.com",
+          "href": "https://github.com/ratnadeep2003/purplexity",
           "icon": "github"
         }
       ]
