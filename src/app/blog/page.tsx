@@ -1,6 +1,6 @@
 import PostsSkeleton from "@/components/PostsSkeleton";
 import PostsWithSearch from "@/components/PostsWithSearch";
-import { getPosts } from "@/lib/posts";
+import { getPosts } from "@/lib/notion"; 
 import { Suspense } from "react";
 
 export const revalidate = 600;
