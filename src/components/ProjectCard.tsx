@@ -33,21 +33,23 @@ export function ProjectCard({ project }: Props) {
               className="h-full w-full object-contain object-center"
             />
           </div>
+        ) : image ? (
+          <Link href={href || image}>
+            <ImageWithSkeleton
+              src={image}
+              alt={name}
+              width={500}
+              height={300}
+              sizes="(max-width: 640px) calc(100vw - 4rem), 344px"
+              quality={75}
+              containerClassName="flex h-40 w-full items-center justify-center overflow-hidden rounded-md bg-muted"
+              className="h-full w-full object-contain object-center"
+            />
+          </Link>
         ) : (
-          image && (
-            <Link href={href || image}>
-              <ImageWithSkeleton
-                src={image}
-                alt={name}
-                width={500}
-                height={300}
-                sizes="(max-width: 640px) calc(100vw - 4rem), 344px"
-                quality={75}
-                containerClassName="flex h-40 w-full items-center justify-center overflow-hidden rounded-md bg-muted"
-                className="h-full w-full object-contain object-center"
-              />
-            </Link>
-          )
+          <div className="flex h-40 w-full items-center justify-center rounded-md bg-muted text-sm text-muted-foreground">
+            In Progress — media coming soon
+          </div>
         )}
       </CardHeader>
       <CardContent className="flex flex-col gap-2">

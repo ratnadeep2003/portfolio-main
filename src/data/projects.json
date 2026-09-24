@@ -5,16 +5,32 @@
       "description": "Autonomous terminal coding assistant with a multi-turn ReAct loop for iterative perception, tool chaining, and self-correction across up to 25 turns",
       "image": "/img/project-agent.svg",
       "video": "/videos/terminal-agent-demo.mp4",
-      "tags": ["TypeScript", "Node.js", "Gemini API", "Claude API", "ReAct"],
+      "tags": [
+        "TypeScript",
+        "Node.js",
+        "Gemini API",
+        "Claude API",
+        "ReAct"
+      ],
       "links": [
-        { "name": "Source", "href": "https://github.com/ratnadeep2003/terminal-based-coding-agent", "icon": "github" }
+        {
+          "name": "Source",
+          "href": "https://github.com/ratnadeep2003/terminal-based-coding-agent",
+          "icon": "github"
+        }
       ]
     },
     {
       "name": "Purplexity",
       "description": "AI search engine combining Tavily Web Search and Google Gemini via the Vercel AI SDK, generating real-time streaming answers with dynamic web citations",
       "image": "/img/project-3.svg",
-      "tags": ["React 19", "Express", "Bun", "TypeScript", "Supabase"],
+      "tags": [
+        "React 19",
+        "Express",
+        "Bun",
+        "TypeScript",
+        "Supabase"
+      ],
       "links": [
         {
           "name": "Website",
@@ -31,7 +47,6 @@
     {
       "name": "GitArch",
       "description": "Git-style version control and collaboration platform for architects — 3D visual diffing, role-based branching, and CAD/BIM file support built for design files Git wasn't designed to handle",
-      "image": "/img/project-gitarch.svg",
       "tags": [
         "Next.js",
         "Three.js",
@@ -51,6 +66,7 @@
       "name": "PaperCast",
       "description": "Converts research papers into interactive two-host AI podcasts, using a Level-3 citation crawler over the OpenAlex API and an LLM-driven dialogue synthesizer, with pause/resume voice interaction grounded in the citation graph",
       "image": "/img/project-papercast.svg",
+      "video": "/videos/papercast-screenrecording.mp4",
       "tags": [
         "Next.js",
         "TypeScript",
