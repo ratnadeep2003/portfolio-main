@@ -3,7 +3,8 @@ import LinkWithIcon from "@/components/LinkWithIcon";
 import MDXContent from "@/components/MDXContent";
 import { Badge } from "@/components/ui/Badge";
 import { Separator } from "@/components/ui/Separator";
-import { getPostBySlug, getPosts } from "@/lib/posts";
+import { getPostBySlug, getPosts } from "@/lib/notion"; 
+import NotionPage from "@/components/NotionPage"; 
 import { formatDate } from "@/lib/utils";
 import {
   AlertTriangleIcon,
@@ -190,7 +191,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
 
         {/* Content */}
         <main className="prose prose-lg max-w-none dark:prose-invert">
-          <MDXContent source={post.content} />
+          <NotionPage recordMap={(post as any).recordMap} />
         </main>
 
         {/* Footer */}
