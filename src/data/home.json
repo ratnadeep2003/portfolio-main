@@ -1,8 +1,8 @@
 {
   "introduction": {
     "greeting": "Hi, I'm Ratnadeep. 👋",
-    "tagline": "Full-Stack Developer (Stack Still Loading...)",
-    "description": "Ravenous for backend and distributed systems knowledge, one Docker container at a time.",   "escalation": {
+    "tagline": "Full-Stack Developer (it worked on my machine 🙃)",
+    "description": "Hungry for backend and distributed systems knowledge, but moving with one Docker container at a time.",   "escalation": {
       "text": "Interested in collaborating or discussing projects?",
       "linkText": "Get in touch",
       "suffix": "directly."
