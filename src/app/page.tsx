@@ -6,7 +6,7 @@ import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import SwipeCards from "@/components/SwipeCards";
 import { Button } from "@/components/ui/Button";
-import { getPosts } from "@/lib/posts";
+import { getPosts } from "@/lib/notion";
 import {
   ArrowDown,
   ArrowRightIcon,

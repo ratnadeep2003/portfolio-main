@@ -11,7 +11,6 @@ This is my personal developer portfolio and blog where I showcase my projects, t
 ## Data Collection
 
 - **Contact Form**: If you send a message through the contact form, your name and email are only used to reply to your inquiry.
-- **AI Chatbot**: Queries submitted to the portfolio assistant are used solely to generate real-time answers about projects and background.
 - **No Selling of Data**: Your information is never sold, shared, or rented.
 
 ## Questions

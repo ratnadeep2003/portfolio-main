@@ -34,23 +34,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "Smart Touch Tech Solutions LLP",
-      "href": "https://smarttouchindia.in/",
-      "logo": "/img/company-stts.png",
-      "positions": [
-        {
-          "title": "Freelance React Native Developer",
-          "start": "April 2026",
-          "end": "June 2026",
-          "description": [
-            "Designed the skeletal architecture of a cross-platform mobile app using React Native, covering theming system, colorful UI component structure, and screen navigation layout",
-            "Built a dynamic theming system allowing instant, app-wide theme switching applied across buttons and screens on a single tap",
-            "Scaffolded PDF/Excel data export and Stripe payment integration touchpoints, along with backend API connectivity"
-          ]
-        }
-      ]
     }
   ]
 }

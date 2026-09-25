@@ -19,8 +19,7 @@ function extractTitle(b: any): string {
     return "Untitled";
   }
 }
-
-const EXCLUDED_TITLES = ["Contact me", "About me"];
+const EXCLUDED_TITLES = ["contact me", "about me"];
 
 export async function getPosts(limit?: number) {
   const recordMap = await getNotionRecordMap(ROOT_PAGE_ID);
